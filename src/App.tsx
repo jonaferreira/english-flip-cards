@@ -1,13 +1,12 @@
-import './App.css'
-import Card from './components/Card/Card'
+import "./App.css";
+import Card from "./components/card/Card";
 
 function App() {
   return (
     <>
-      <h1>English Flip Cards</h1>
-      <Card></Card>
+      <Card />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
